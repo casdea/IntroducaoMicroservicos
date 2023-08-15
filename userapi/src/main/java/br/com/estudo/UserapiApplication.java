@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.estudo.domain.Usuario;
-import br.com.estudo.repository.UserRepository;
+import br.com.estudo.userapi.domain.Usuario;
+import br.com.estudo.userapi.repository.UserRepository;
 
 @SpringBootApplication
 public class UserapiApplication implements CommandLineRunner {
