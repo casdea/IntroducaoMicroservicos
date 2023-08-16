@@ -17,7 +17,6 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping(value = "/api/users")
 public class UsuarioResourceImpl implements UsuarioResource {
 
-	@Autowired	
 	private UsuarioService service;
 
 	@Override

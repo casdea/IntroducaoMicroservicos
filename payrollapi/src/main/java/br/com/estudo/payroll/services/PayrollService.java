@@ -2,8 +2,6 @@ package br.com.estudo.payroll.services;
 
 import java.util.Objects;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import br.com.estudo.payroll.domain.Payroll;
@@ -14,10 +12,9 @@ import feign.FeignException;
 @Service
 public class PayrollService {
 
-	@Autowired
-    private Environment env;
+	//@Autowired
+    //private Environment env;
 	
-	@Autowired
     private UsuarioFeign feign;
 
     public Payroll getPayment(Long workerId, Payroll payroll) {

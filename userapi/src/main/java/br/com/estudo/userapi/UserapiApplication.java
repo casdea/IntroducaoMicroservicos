@@ -1,4 +1,4 @@
-package br.com.estudo;
+package br.com.estudo.userapi;
 
 import java.util.List;
 

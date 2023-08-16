@@ -12,12 +12,10 @@ import br.com.estudo.userapi.services.exception.ObjectNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @RequiredArgsConstructor
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
 
-	@Autowired
 	private UserRepository repository;
 	
 	//@Autowired
